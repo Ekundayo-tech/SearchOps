@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchOps", "SearchOps\SearchOps.csproj", "{1C5B2F39-6C13-45C7-94CE-048CDAF72C10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1971B280-51F7-49B1-847E-EAE14796124E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{E4EF4CF8-16FD-4943-A9E5-81F9E8BC60A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayer", "DataLayer", "{64405DB4-6DD1-4F14-B50B-266A6E840480}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayer", "BusinessLayer", "{FEE8D1EA-DE94-44C8-8D35-C7F6028F0631}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchOps.Business", "SearchOps.Application\SearchOps.Business.csproj", "{64A968C3-7742-4A6C-8D37-B23024926E29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchOps.Domain", "SearchOps.Domain\SearchOps.Domain.csproj", "{958814F5-113A-469C-A525-E7B22C69FA0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extra", "Extra", "{CB305E55-B3C4-43BF-8D49-DBB18D9E8CD7}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\ReceivedFiles\Assessment\Conversion of json to ndjson.txt = ..\..\..\..\..\ReceivedFiles\Assessment\Conversion of json to ndjson.txt
+		..\..\..\..\..\ReceivedFiles\Assessment\Indexing to elasticsearch.txt = ..\..\..\..\..\ReceivedFiles\Assessment\Indexing to elasticsearch.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C5B2F39-6C13-45C7-94CE-048CDAF72C10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5B2F39-6C13-45C7-94CE-048CDAF72C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C5B2F39-6C13-45C7-94CE-048CDAF72C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C5B2F39-6C13-45C7-94CE-048CDAF72C10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A968C3-7742-4A6C-8D37-B23024926E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A968C3-7742-4A6C-8D37-B23024926E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A968C3-7742-4A6C-8D37-B23024926E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A968C3-7742-4A6C-8D37-B23024926E29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958814F5-113A-469C-A525-E7B22C69FA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958814F5-113A-469C-A525-E7B22C69FA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958814F5-113A-469C-A525-E7B22C69FA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958814F5-113A-469C-A525-E7B22C69FA0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C5B2F39-6C13-45C7-94CE-048CDAF72C10} = {E4EF4CF8-16FD-4943-A9E5-81F9E8BC60A1}
+		{E4EF4CF8-16FD-4943-A9E5-81F9E8BC60A1} = {1971B280-51F7-49B1-847E-EAE14796124E}
+		{64405DB4-6DD1-4F14-B50B-266A6E840480} = {1971B280-51F7-49B1-847E-EAE14796124E}
+		{FEE8D1EA-DE94-44C8-8D35-C7F6028F0631} = {1971B280-51F7-49B1-847E-EAE14796124E}
+		{64A968C3-7742-4A6C-8D37-B23024926E29} = {FEE8D1EA-DE94-44C8-8D35-C7F6028F0631}
+		{958814F5-113A-469C-A525-E7B22C69FA0C} = {64405DB4-6DD1-4F14-B50B-266A6E840480}
+		{CB305E55-B3C4-43BF-8D49-DBB18D9E8CD7} = {1971B280-51F7-49B1-847E-EAE14796124E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E962FB98-9B3E-4DBB-8A70-D9EAB56E6EE5}
+	EndGlobalSection
+EndGlobal
